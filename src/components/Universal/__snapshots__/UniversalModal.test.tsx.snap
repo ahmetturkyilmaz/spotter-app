@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "zIndex": 100,
+    }
+  }
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "backgroundColor": "rgba(10, 10, 35, 0.5)",
+            "flex": 1,
+            "justifyContent": "center",
+          },
+          undefined,
+        ],
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      alignItems="center"
+      backgroundColor="bgWhite"
+      borderRadius={6}
+      focusable={false}
+      mx={12}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      padding={20}
+      shadowColor="black"
+      shadowOffset={
+        Object {
+          "height": 3,
+          "width": 1,
+        }
+      }
+      shadowOpacity={0.25}
+      shadowRadius={4}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderRadius": 6,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</Modal>
+`;
